@@ -102,7 +102,7 @@ export default function hero() {
             className="mt-5 flex justify-center px-10"
           >
             <Link
-              href="https://drive.google.com/file/d/16bbL7fnVouBbtAnuAf6zNj_VPD6oupbi/view?usp=sharing"
+              href="https://docs.google.com/document/d/1rzNx_3ru2KgUET1WQ_RgY5lyptCs39qqOW42fvfVc8s/edit?usp=sharing"
               target="_blank"
               download
               data-type="cv"
