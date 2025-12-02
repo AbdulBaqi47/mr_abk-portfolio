@@ -18,7 +18,7 @@ const projects: Record<string, Project> = {
       "A comprehensive smart home management dashboard built for Tyga Smart. Features real-time device monitoring, energy consumption analytics, and automated scheduling. The system enables users to control IoT devices, view usage statistics, and optimize energy efficiency across their property.",
     images: [WorkablesImages.tyga_smart],
     techStack: ["Laravel", "Vue.js", "MySQL", "REST API", "Chart.js", "Tailwind CSS"],
-    liveUrl: "",
+    liveUrl: "https://tyga.projectpreview.xyz",
     githubUrl: "",
   },
   bookairticket: {
@@ -28,7 +28,7 @@ const projects: Record<string, Project> = {
       "A full-featured flight booking platform that aggregates flights from multiple airlines. Users can search, compare, and book flights with real-time pricing. Includes features like seat selection, meal preferences, and integrated payment processing with multiple gateway support.",
     images: [WorkablesImages.bookairticket],
     techStack: ["Laravel", "React", "MySQL", "Stripe API", "Amadeus API", "Redis"],
-    liveUrl: "",
+    liveUrl: "https://bookairticket.vercel.app/",
     githubUrl: "",
   },
   redefine_front: {
@@ -38,7 +38,7 @@ const projects: Record<string, Project> = {
       "A modern church management system with member portal, event scheduling, and donation management. Features include sermon archives, small group coordination, volunteer scheduling, and integrated giving platform. Built with scalability to handle growing congregations.",
     images: [WorkablesImages.redefine_front],
     techStack: ["Laravel", "React", "MySQL", "Stripe", "AWS S3", "Pusher"],
-    liveUrl: "",
+    liveUrl: "https://redefine.church",
     githubUrl: "",
   },
   spiritindex: {
@@ -48,7 +48,7 @@ const projects: Record<string, Project> = {
       "A spiritual wellness tracking application that helps users monitor their meditation practices, daily reflections, and spiritual growth journey. Features mood tracking, guided meditation integrations, community forums, and personalized growth recommendations.",
     images: [WorkablesImages.spiritindex],
     techStack: ["Laravel", "Vue.js", "PostgreSQL", "WebSockets", "Tailwind CSS"],
-    liveUrl: "",
+    liveUrl: "https://spirit.projectpreview.xyz",
     githubUrl: "",
   },
   geo_B2B: {
