@@ -11,6 +11,16 @@ import { ProjectModal, Project } from "@/components/project-modal";
 // To add multiple images, add more images to the images array
 // Example: images: [WorkablesImages.tyga_smart, WorkablesImages.tyga_smart_2, WorkablesImages.tyga_smart_3]
 const projects: Record<string, Project> = {
+  smartlane: {
+    id: "smartlane",
+    title: "Smartlane Dashboard",
+    description:
+      "Smartlane is a logistics and e-commerce enablement platform that provides software solutions to help online merchants manage and automate their order fulfillment processes. It typically integrates with platforms like Shopify to streamline order booking, tracking, and delivery coordination by connecting stores with logistics and backend fulfillment systems In simple terms, Smartlane helps e-commerce businesses reduce manual work by automating how orders move from an online store to delivery.",
+    images: [WorkablesImages.smartlane],
+    techStack: ["Laravel", "Vue.js", "MySQL", "REST API", "Payment Gatways", "Wallet System"],
+    liveUrl: "https://gcp.smartlane.dev/",
+    githubUrl: "",
+  },
   tyga_smart: {
     id: "tyga_smart",
     title: "TygaSmart Dashboard",
@@ -157,7 +167,34 @@ export function WorkExperience() {
 
   const data = [
     {
-      title: "Nov 2024 - Present",
+      title: "January 2026 - Present",
+      content: (
+        <motion.div
+          className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <h3 className="text-lg font-bold text-foreground">
+            Software Engineer
+          </h3>
+          <p className="text-sm text-purple-600">Virico</p>
+          <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
+            Laravel Expert | Full Stack Developer | API | Vue | JavaScript | Agile
+            Development | Git/GitHub | MySQL | pgsql | MVC Architecture
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <ProjectImage projectKey="tyga_smart" onSelect={handleProjectSelect} />
+            <ProjectImage projectKey="bookairticket" onSelect={handleProjectSelect} />
+            <ProjectImage projectKey="redefine_front" onSelect={handleProjectSelect} />
+            <ProjectImage projectKey="spiritindex" onSelect={handleProjectSelect} />
+          </div>
+        </motion.div>
+      ),
+    },
+    {
+      title: "Nov 2024 - Dec 2025",
       content: (
         <motion.div
           className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
