@@ -185,7 +185,7 @@ export function WorkExperience() {
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <ProjectImage projectKey="tyga_smart" onSelect={handleProjectSelect} />
+            <ProjectImage projectKey="smartlane" onSelect={handleProjectSelect} />
             <ProjectImage projectKey="bookairticket" onSelect={handleProjectSelect} />
             <ProjectImage projectKey="redefine_front" onSelect={handleProjectSelect} />
             <ProjectImage projectKey="spiritindex" onSelect={handleProjectSelect} />
