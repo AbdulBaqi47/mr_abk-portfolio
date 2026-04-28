@@ -9,6 +9,7 @@ import redefine_church from "../assets/Workables/Redefine_church_dashboard.png";
 import redefine_front from "../assets/Workables/redefine_thumbnail.png";
 import spiritindex from "../assets/Workables/spiritindex_thumbnail.png";
 import bookairticket from "../assets/Workables/bookairticket_thumbnail.png";
+import smartlane from "../assets/Workables/smartlane_thumbnail.png";
 
 
 const WorkablesImages = {
@@ -22,6 +23,7 @@ const WorkablesImages = {
     redefine_church,
     redefine_front,
     spiritindex,
-    bookairticket
+    bookairticket,
+    smartlane
 }
  export default WorkablesImages
