@@ -57,10 +57,10 @@ export default function skills() {
         //   name: "Vite",
         //   icon: viteIcon,
         // },
-        // {
-        //   name: "Next.js",
-        //   icon: nextjsIcon,
-        // },
+        {
+          name: "Next.js",
+          icon: nextjsIcon,
+        },
         {
           name: "TypeScript",
           icon: typescriptIcon,
@@ -84,15 +84,15 @@ export default function skills() {
       ],
     },
     {
-      title: "Backend Development",
+      title: "Backend & Databases",
       skills: [
-        // {
-        //   name: "Node.js",
-        //   icon: nodejsIcon,
-        // },
         {
           name: "PHP",
           icon: php,
+        },
+        {
+          name: "Laravel",
+          icon: laravel,
         },
         {
           name: "PostgreSQL",
@@ -134,12 +134,16 @@ export default function skills() {
       title: "Languages",
       skills: [
         {
-          name: "TypeScript",
-          icon: typescriptIcon,
+          name: "PHP",
+          icon: php,
         },
         {
           name: "JavaScript",
           icon: javascriptIcon,
+        },
+        {
+          name: "TypeScript",
+          icon: typescriptIcon,
         },
       ],
     },

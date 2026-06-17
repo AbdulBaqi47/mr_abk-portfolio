@@ -1,10 +1,7 @@
 "use client";
 import React, { FormEvent, useLayoutEffect, useRef, useState } from "react";
 import { MoveRight } from "lucide-react";
-// import * as Toast from '@radix-ui/react-toast'
 import { motion, useInView } from "framer-motion";
-
-// import useNewsLetter, { ClientData } from '@/lab/hooks/useNewsLetter'
 import Link from "next/link";
 import { LetterPullUp } from "./letter-pullup";
 const placeholders = ["Enter"];
@@ -49,18 +46,9 @@ const MainFooter = () => {
   };
   const handleNewsLetterData = (e: FormEvent) => {
     e.preventDefault();
-    console.log(e);
-    e.preventDefault();
     const target = e.target as HTMLFormElement;
     const formData = new FormData(target);
-
     const clientEmail = formData.get("newsletter_email")!;
-
-    // const data: ClientData = {
-    //   email: clientEmail.toString(),
-    // }
-
-    // Send(data)
     setOpenPopUp(true);
     target.reset();
     if (setOpenPopUp) {

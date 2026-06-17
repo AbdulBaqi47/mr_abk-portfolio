@@ -13,22 +13,22 @@ import { ProjectModal, Project } from "@/components/project-modal";
 const projects: Record<string, Project> = {
   smartlane: {
     id: "smartlane",
-    title: "Smartlane Dashboard",
+    title: "Smartlane — E-Commerce Fulfilment Platform",
     description:
-      "Smartlane is a logistics and e-commerce enablement platform that provides software solutions to help online merchants manage and automate their order fulfillment processes. It typically integrates with platforms like Shopify to streamline order booking, tracking, and delivery coordination by connecting stores with logistics and backend fulfillment systems In simple terms, Smartlane helps e-commerce businesses reduce manual work by automating how orders move from an online store to delivery.",
+      "An AI-powered e-commerce fulfilment platform for online merchants. Built custom MCP (Model Context Protocol) tools in Laravel to enable intelligent order management, fulfilment insights, and automated workflows. Integrated Shopify APIs, webhooks, and OAuth 2.0, built Smartlane Wallet (balance tracking & payouts), Smartlane Invoices (automated billing), and third-party logistics (3PL) integrations.",
     images: [WorkablesImages.smartlane],
-    techStack: ["Laravel", "Vue.js", "MySQL", "REST API", "Payment Gatways", "Wallet System"],
+    techStack: ["Laravel", "MCP Tools", "Shopify API", "MySQL", "OAuth 2.0", "Queue Processing", "Webhook Pipelines"],
     liveUrl: "https://gcp.smartlane.dev/",
     githubUrl: "",
   },
   tyga_smart: {
     id: "tyga_smart",
-    title: "TygaSmart Dashboard",
+    title: "Tyga Smart — Truck Dispatching Platform",
     description:
-      "A comprehensive smart home management dashboard built for Tyga Smart. Features real-time device monitoring, energy consumption analytics, and automated scheduling. The system enables users to control IoT devices, view usage statistics, and optimize energy efficiency across their property.",
+      "A fully automated SaaS-based truck dispatching platform for logistics businesses. Features fleet dispatching, real-time shipment tracking, route optimisation, driver management, and delivery coordination. Improved logistics operational efficiency by 50% for clients.",
     images: [WorkablesImages.tyga_smart],
     techStack: ["Laravel", "Vue.js", "MySQL", "REST API", "Chart.js", "Tailwind CSS"],
-    liveUrl: "https://tyga.projectpreview.xyz",
+    liveUrl: "https://tygasmart.com",
     githubUrl: "",
   },
   bookairticket: {
@@ -83,12 +83,12 @@ const projects: Record<string, Project> = {
   },
   kingRiders: {
     id: "kingRiders",
-    title: "King Riders Delivery System",
+    title: "KingRiders / KingLimousine — Fleet SaaS (UAE)",
     description:
-      "A complete delivery management system with real-time tracking, route optimization, and driver management. Features include order dispatching, customer notifications, proof of delivery, and comprehensive analytics for delivery performance monitoring.",
+      "SaaS fleet management platforms built for King Group of Companies (UAE), managing driver accounts, bookings, ledgers, and regulatory compliance (RTA, visas, permits). Integrated with Uber, Careem, and Yango. Also includes KingDrive — a maintenance tracking sub-app for delivery vehicle repairs and parts management.",
     images: [WorkablesImages.kingRiders],
     techStack: ["Laravel", "JavaScript", "MySQL", "Google Maps API", "Firebase", "Pusher"],
-    liveUrl: "",
+    liveUrl: "https://kingriders.manage-fleet.com",
     githubUrl: "",
   },
   safety: {
@@ -167,7 +167,7 @@ export function WorkExperience() {
 
   const data = [
     {
-      title: "January 2026 - Present",
+      title: "February 2026 - Present",
       content: (
         <motion.div
           className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
@@ -178,10 +178,9 @@ export function WorkExperience() {
           <h3 className="text-lg font-bold text-foreground">
             Software Engineer
           </h3>
-          <p className="text-sm text-purple-600">Virico</p>
+          <p className="text-sm text-purple-600">Smartlane</p>
           <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
-            Laravel Expert | Full Stack Developer | API | Vue | JavaScript | Agile
-            Development | Git/GitHub | MySQL | pgsql | MVC Architecture
+            MCP Tool Development | Laravel | Shopify API | Webhook Pipelines | OAuth 2.0 | Queue Processing | AI Tooling | MySQL
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -194,7 +193,7 @@ export function WorkExperience() {
       ),
     },
     {
-      title: "Nov 2024 - Dec 2025",
+      title: "Nov 2024 - Jan 2026",
       content: (
         <motion.div
           className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
@@ -207,7 +206,7 @@ export function WorkExperience() {
           </h3>
           <p className="text-sm text-purple-600">Virico</p>
           <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
-            Laravel Expert | Full Stack Developer | API | React | JavaScript | Agile
+            Laravel Expert | Full Stack Developer | RESTful API | Vue | JavaScript | Agile
             Development | Git/GitHub | MySQL | MongoDB | MVC Architecture
           </p>
 
@@ -221,7 +220,7 @@ export function WorkExperience() {
       ),
     },
     {
-      title: "Sept 2024 - Nov 2024",
+      title: "Aug 2024 - Nov 2024",
       content: (
         <motion.div
           className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
@@ -232,10 +231,10 @@ export function WorkExperience() {
           <h3 className="text-lg font-bold text-foreground">
             Laravel Developer
           </h3>
-          <p className="text-sm text-purple-600">Xint Solutions</p>
+          <p className="text-sm text-purple-600">Xint Solution</p>
           <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
-            Laravel Expert | Full Stack Developer | API | JavaScript | Agile
-            Development | Git/GitHub | MySQL | MongoDB | MVC Architecture
+            Laravel Expert | Travel Booking Platform | API Integrations | JavaScript | Agile
+            Development | Git/GitHub | MySQL | Query Optimisation | MVC Architecture
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -260,7 +259,7 @@ export function WorkExperience() {
       ),
     },
     {
-      title: "June 2021 - Aug 2024",
+      title: "Mar 2021 - Jul 2024",
       content: (
         <motion.div
           className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
@@ -271,9 +270,9 @@ export function WorkExperience() {
           <h3 className="text-lg font-bold text-foreground">
             Laravel Developer
           </h3>
-          <p className="text-sm text-purple-600">SolutionWins Technologies</p>
+          <p className="text-sm text-purple-600">Solutionwin Technologies</p>
           <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
-            Laravel Expert | Full Stack Developer | API | JavaScript | Agile
+            Laravel Expert | Team Lead | 30+ API Integrations | SaaS Platforms | JavaScript | Agile
             Development | Git/GitHub | MySQL | MongoDB | MVC Architecture
           </p>
 
@@ -282,56 +281,6 @@ export function WorkExperience() {
             <ProjectImage projectKey="safety" onSelect={handleProjectSelect} />
             <ProjectImage projectKey="spendsail" onSelect={handleProjectSelect} />
             <ProjectImage projectKey="marketboss" onSelect={handleProjectSelect} />
-          </div>
-        </motion.div>
-      ),
-    },
-    {
-      title: "Sept 2019 - May 2021",
-      content: (
-        <motion.div
-          className="rounded-lg border-2 border-muted-foreground/50 p-4 shadow-md"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <h3 className="text-lg font-bold text-foreground">
-            Front End Developer
-          </h3>
-          <p className="text-sm text-purple-600">Vampire Gaming Studio</p>
-          <p className="mt-2 text-xs font-normal text-foreground md:text-sm">
-            Front End Developer | UI/UX Enthusiast | JavaScript | React | Vue.js | Responsive Design | Performance Optimization | Git/GitHub
-          </p>
-
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
           </div>
         </motion.div>
       ),

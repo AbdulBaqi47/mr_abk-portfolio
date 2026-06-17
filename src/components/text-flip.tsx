@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef } from "react";
 
 export default function TextFlip() {
   const words = useMemo(
-    () => ["Laravel", "PHP", "Vue.js", "Laravel", "HTML", "CSS", "Laravel"],
+    () => ["Laravel", "PHP", "MCP Tools", "REST APIs", "Vue.js", "MySQL", "React", "AI Tooling"],
     [],
   );
 
